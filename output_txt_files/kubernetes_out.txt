@@ -1,1 +1,19 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+--> terminal of : sudo ./run_kubernetes.sh
+
+Error from server (AlreadyExists): pods "ml-prediction" already exists
+NAME                                   READY   STATUS    RESTARTS      AGE
+kubernetes-bootcamp-57978f5f5d-4nmmb   1/1     Running   1 (19h ago)   46h
+ml-prediction                          1/1     Running   0             5m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+--> terminal of : ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
