@@ -45,10 +45,10 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 * .circleci : CircleCI config script.
 * model_data : Directory with the model data.
-* output_txt_files  : 
-     Includes output files of the project :
-         1 - Docker_out.txt -> run_docker.sh output.
-         2 - Kubernetes_out.txt -> run_kubernetes.sh output.
+* output_txt_files  :<br /> 
+     Includes output files of the project :<br />
+         1 - Docker_out.txt -> run_docker.sh output.<br />
+         2 - Kubernetes_out.txt -> run_kubernetes.sh output.<br />
 * app.py : Python application.
 * Dockerfile : Docker configuration.
 * make_prediction.sh : Pass payload to app.py.
