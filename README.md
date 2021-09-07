@@ -40,3 +40,19 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Files explanation
+
+* .circleci : CircleCI config script.
+* model_data : Directory with the model data.
+* output_txt_files  : Includes output files of the project :
+                             1 - Docker_out.txt -> run_docker.sh output.
+                             2 - Kubernetes_out.txt -> run_kubernetes.sh output.
+* app.py : Python application.
+* Dockerfile : Docker configuration.
+* make_prediction.sh : Pass payload to app.py.
+* Makefile : Install, test and lint.
+* requirements.txt : Application's dependencies.
+* run_docker.sh : Shell script to build and run docker container .
+* run_kubernetes.sh : Shell script to run kubernetes with the container from docker hub .
+* upload_docker.sh : Shell script to upload image to docker Hub .
